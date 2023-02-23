@@ -1,0 +1,287 @@
+/* @media (min-width:320px) and (max-width:767px) */
+
+@media (min-width:320px) and (max-width:767px){
+    /*top bar */
+.top-bar{
+    display: none;
+}
+/*header */
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    z-index: 1000;
+}
+
+header .header__left h1{
+color: black;
+font-size: 24px;
+
+}
+
+.header__left{
+    display: flex;
+    justify-content: center;
+}
+
+.header__left  img{
+    display: none;
+}
+
+header .header__right .dropdown button{
+    background-color: transparent;
+    border-radius: 0px;
+    margin-left: 0px;
+    
+    
+}
+
+.lang-media{
+    display: block;
+}
+
+.drop-form form{
+    width: 300px;
+}
+
+.drop-form form h3{
+    font-size: 20px
+}
+
+header .header__center{
+    display: none;
+}
+
+.header-banner .banner__content h2{
+font-size: 30px !important;
+}
+
+.header__list{
+    display: block !important;
+    margin-top: 30px;
+
+}
+
+/* banner */
+.header-banner{
+    height: 400px;
+}
+.header-banner .banner__content p{
+    font-size: 12px;
+    width: 70%;
+    margin: auto;
+}
+
+
+/* search */
+.search-tab{
+    display: none;
+}
+
+.search-tab-media{
+    display: block;
+    top: 280px;
+}
+
+/* un-search */
+.un-search{
+    height: auto;
+    width: 98%;
+    margin: auto;
+    margin-top: 180px;
+}
+
+.un-search .card{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    height: 200px;
+}
+
+.un-search .content{
+    flex-direction: column;
+}
+
+/* cards */
+.section-card{
+    width: 90%;
+    margin-top: 0px;
+}
+.section-card .section__card1{
+    flex-direction: column;
+}
+
+.section-card .section__h h2{
+    font-size: 30px;
+}
+
+.card1__content{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card1__content h3{
+    top: 41%;
+    font-size: 30px;
+}
+
+.card2__content h3{
+    top: 41%;
+    font-size: 30px;
+
+}
+
+.card2__content{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.section-card .section__card2{
+    flex-direction: column;
+}
+
+/* recomended */
+.section-card2 .section2__card1{
+    flex-direction: column;
+}
+
+.section-card2 .section2__card2{
+    flex-direction: column;
+}
+
+.section-card2 .section2__card2 .content1-card2{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.section-card2 .section2__card1{
+    width: 90%;
+    padding-bottom: 0px;
+}
+
+.section-card2 .section2__card2{
+    width: 90%;
+    padding-top: 0px;
+}
+
+.section-card2 .section2__card1 .content1-card1{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;    
+}
+
+.section-card2{
+    margin-top: 40px;
+}
+
+.section-card2 .section2__h h2{
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+}
+/* up-footer */
+
+.parent{
+    height: auto;
+    width: 90%;
+    flex-direction: column;
+}
+
+.parent .child-1 {
+    width: 100%;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.parent .child-2{
+    width: 100%;
+}
+
+.parent form {
+    width: 94%;
+    margin-bottom: 40px;
+}
+
+.parent button{
+    width: 30%;
+}
+
+.parent .special-p {
+    font-size: 23px;
+}
+
+.parent input {
+    width: 70%;
+}
+
+/* footer */
+
+footer{
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.ul2__top{
+display: none;
+}
+
+footer .footer-top{
+    flex-direction: column;
+}
+
+footer .footer-bottom{
+flex-direction: column;
+}
+
+footer .footer-top .ul4__top .social{
+    display: none;
+}
+
+footer .footer-top .ul4__top {
+    display: flex;
+    justify-content:flex-start;
+    border-top: 1px solid rgba(255, 255, 255, 0.65);
+    padding-top: 15px;
+}
+
+footer .footer-top .ul4__top li{
+    padding-right: 20px;
+}
+
+.copyright{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+footer .footer-bottom .copyright-media{
+    width:100%;
+    display: block;
+
+}
+
+footer .footer-top .ul1__top li{
+    margin-top: 20px;
+
+}
+
+.payment{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.payment img{
+    width: 80%;
+}
+
+}
+
+/* end project */
